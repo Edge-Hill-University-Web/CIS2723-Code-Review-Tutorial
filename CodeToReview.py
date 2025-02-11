@@ -36,11 +36,11 @@ def do_thing(x, y):  # Issue: Unclear purpose
 
 # Example function calls (for testing purposes)
 if __name__ == "__main__":
-    print(calculate_age(2025))  # Issue: Future year
+    print(calculate_age(2025))
     print(format_username("John", "Doe"))
-    print(divide_numbers(10, 0))  # Issue: Division by zero
-    print(read_file("non_existent_file.txt"))  # Issue: File does not exist
+    print(divide_numbers(10, 0))
+    print(read_file("non_existent_file.txt")) 
     print(process_numbers([1, 2, 3, 4, 5]))
     greet_user("Alice")
-    print(caluclate_discount(100, 10))  # Issue: Function name typo
-    print(do_thing(5, 3))  # Issue: Unclear purpose
+    print(caluclate_discount(100, 10))
+    print(do_thing(5, 3))  
